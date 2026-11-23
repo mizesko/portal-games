@@ -13,7 +13,11 @@ const AREAS: AreaVaga[] = [
 const MODELOS: ModeloTrabalho[] = ['Remoto', 'Híbrido', 'Presencial', 'Não informado']
 
 const SENIORIDADES: SenioridadeVaga[] = [
-  'Estágio', 'Júnior', 'Pleno', 'Sênior', 'Lead/Especialista', 'Não informado',
+  'Estágio',
+  'Trainee / Aprendiz',
+  'Júnior / Entry-Level',
+  'Assistente / Banco de Talentos',
+  'Entrada / Não especificado',
 ]
 
 export type LocalizacaoOption = 'all' | 'remoto' | 'sp'
@@ -139,8 +143,13 @@ export function JobFilters({ filters, onChange, totalVisible, totalAll }: Props)
       </div>
 
       {/* Filtros de senioridade */}
-      <div className="flex gap-1.5 flex-wrap">
+      <div className="flex gap-1.5 flex-wrap items-center">
         <div className="flex items-center gap-1 text-xs text-zinc-500 mr-1 w-14">Nível:</div>
+        <Chip
+          label="Todos os níveis de entrada"
+          active={filters.senioridades.length === 0}
+          onClick={() => onChange({ ...filters, senioridades: [] })}
+        />
         {SENIORIDADES.map(s => (
           <Chip
             key={s}

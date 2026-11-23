@@ -322,14 +322,69 @@ export function detectModelo(localTexto = '', titulo = '', descricao = '') {
   return 'Não informado'
 }
 
+export function normalizeText(str = '') {
+  return str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+}
+
+export function isBeginnerFriendly(job) {
+  const titNorm = normalizeText(job.titulo || '')
+  const senNorm = normalizeText(job.senioridade || '')
+  const descNorm = normalizeText((job.descricao || '').slice(0, 400))
+  const titAndSen = `${titNorm} ${senNorm}`
+
+  // 1. HARD BLOCKLIST: Sênior, Pleno, Especialista
+  const SENIOR_BLOCKLIST = /\b(senior|sr|pleno|mid|mid[- ]level|especialista|specialist|principal|staff|master|expert)\b/i
+  if (SENIOR_BLOCKLIST.test(titAndSen)) return false
+
+  // 2. HARD BLOCKLIST: Liderança e Gestão
+  const LEAD_BLOCKLIST = /\b(lead|lider|tech lead|art lead|gerente|manager|coordenador|coordinator|diretor|director|head|supervisor|vp|chief)\b/i
+  if (LEAD_BLOCKLIST.test(titAndSen)) return false
+
+  // 3. HARD BLOCKLIST: Experiência avançada explícita no título ou primeiros 400 caracteres
+  const ADVANCED_EXP_REGEX = /\b([3-9]|\d{2,})\+?\s*(years?|anos?)\b|\b(3\+|4\+|5\+|6\+|7\+|8\+|9\+)\s*(years?|anos?)\b|\b(experiencia solida|solida experiencia|solid experience|extensive experience)\b/i
+  if (ADVANCED_EXP_REGEX.test(titNorm) || ADVANCED_EXP_REGEX.test(descNorm)) return false
+
+  return true
+}
+
+export function classifySeniority(titulo = '', descricao = '', senioridadeOriginal = '') {
+  const titNorm = normalizeText(titulo)
+  const senNorm = normalizeText(senioridadeOriginal)
+  const descNorm = normalizeText(descricao.slice(0, 400))
+
+  // 1. Estágio
+  const ESTAGIO_REGEX = /\b(estagio|estagiario|estagiaria|intern|internship)\b/i
+  if (ESTAGIO_REGEX.test(titNorm) || ESTAGIO_REGEX.test(senNorm) || ESTAGIO_REGEX.test(descNorm)) {
+    return 'Estágio'
+  }
+
+  // 2. Trainee / Aprendiz
+  const TRAINEE_REGEX = /\b(trainee|aprendiz|jovem aprendiz|apprentice)\b/i
+  if (TRAINEE_REGEX.test(titNorm) || TRAINEE_REGEX.test(senNorm) || TRAINEE_REGEX.test(descNorm)) {
+    return 'Trainee / Aprendiz'
+  }
+
+  // 3. Júnior / Entry-Level
+  const JUNIOR_REGEX = /\b(junior|jr|entry[- ]level|associate|iniciante|primeiro emprego)\b/i
+  if (JUNIOR_REGEX.test(titNorm) || JUNIOR_REGEX.test(senNorm) || JUNIOR_REGEX.test(descNorm)) {
+    return 'Júnior / Entry-Level'
+  }
+
+  // 4. Assistente / Banco de Talentos
+  const ASSISTENTE_REGEX = /\b(assistente|auxiliar|banco de talentos|talent pool|freelancer)\b/i
+  if (ASSISTENTE_REGEX.test(titNorm) || ASSISTENTE_REGEX.test(senNorm) || ASSISTENTE_REGEX.test(descNorm)) {
+    return 'Assistente / Banco de Talentos'
+  }
+
+  // 5. Entrada / Não especificado
+  return 'Entrada / Não especificado'
+}
+
 export function detectSenioridade(titulo, descricao = '') {
-  const text = `${titulo} ${descricao}`.toLowerCase()
-  if (text.includes('estágio') || text.includes('estagio') || text.includes('intern') || text.includes('trainee')) return 'Estágio'
-  if (text.includes('junior') || text.includes('júnior') || text.includes(' jr') || text.includes(' jr.')) return 'Júnior'
-  if (text.includes('senior') || text.includes('sênior') || text.includes(' sr') || text.includes(' sr.')) return 'Sênior'
-  if (text.includes('lead') || text.includes('principal') || text.includes('especialista') || text.includes('specialist')) return 'Lead/Especialista'
-  if (text.includes('pleno') || text.includes('mid-level') || text.includes('mid level')) return 'Pleno'
-  return 'Não informado'
+  return classifySeniority(titulo, descricao)
 }
 
 export function makeVagaId(url) {
@@ -445,12 +500,14 @@ export async function validateUrlsInBatches(jobs, concurrency = 5) {
 
 // [1] Gupy Public Search
 async function fetchGupy() {
-  console.log('📡 [1/10] Consultando Gupy Public Search API (17 termos)...')
+  console.log('📡 [1/10] Consultando Gupy Public Search API (27 termos)...')
   const termos = [
     'game', 'jogos', 'game designer', 'level design', 'artista 2d', 'artista 3d',
     'ilustrador', 'ilustração', 'concept art', 'animador', 'motion designer',
     'ui designer', 'ux designer', 'game tester', 'qa tester', 'testador de jogos',
-    'unity', 'unreal'
+    'unity', 'unreal',
+    'estagio design', 'estagio arte', 'estagio jogos', 'estagio ilustracao',
+    'trainee design', 'jovem aprendiz', 'qa junior', 'designer junior', 'ilustrador junior'
   ]
   const rawJobs = []
 
@@ -541,10 +598,12 @@ async function fetchGupy() {
 
 // [2] LinkedIn Brasil Public Search (Guest API)
 async function fetchLinkedInGuest() {
-  console.log('📡 [2/10] Consultando LinkedIn Brasil Public Guest API...')
+  console.log('📡 [2/10] Consultando LinkedIn Brasil Public Guest API (14 termos)...')
   const terms = [
     'game designer', 'game artist', 'artista 2d', 'artista 3d',
-    'ilustrador', 'game tester', 'unity', 'unreal'
+    'ilustrador', 'game tester', 'unity', 'unreal',
+    'estagio game', 'estagio design', 'estagio ilustracao',
+    'qa tester', 'junior game artist', 'junior game designer'
   ]
   const rawJobs = []
 
@@ -1115,10 +1174,23 @@ async function main() {
     }
   }
   console.log(`📍 Descartadas por localização (fora de SP e não-remoto): ${discardedLocation}`)
-  console.log(`\n⏳ Validando URLs ativas das ${locationAllowedJobs.length} vagas pré-aprovadas...`)
+
+  // Filtro de Senioridade Rígido (Exclusivamente Nível Iniciante / Entrada)
+  let discardedSeniority = 0
+  const beginnerJobs = []
+  for (const job of locationAllowedJobs) {
+    if (isBeginnerFriendly(job)) {
+      job.senioridade = classifySeniority(job.titulo, job.descricao, job.senioridade)
+      beginnerJobs.push(job)
+    } else {
+      discardedSeniority++
+    }
+  }
+  console.log(`🎓 Descartadas por nível sênior / liderança / pleno: ${discardedSeniority}`)
+  console.log(`\n⏳ Validando URLs ativas das ${beginnerJobs.length} vagas iniciantes pré-aprovadas...`)
 
   // Validação Inteligente de URLs (com bypass anti-bot e validação de ATS)
-  const { validJobs, discardedCount: discardedUrls } = await validateUrlsInBatches(locationAllowedJobs, 5)
+  const { validJobs, discardedCount: discardedUrls } = await validateUrlsInBatches(beginnerJobs, 5)
 
   // Ordena por data mais recente
   validJobs.sort((a, b) => new Date(b.dataPublicacao).getTime() - new Date(a.dataPublicacao).getTime())
@@ -1144,6 +1216,7 @@ async function main() {
   console.log(`• Total Bruto Coletado:     ${allRaw.length}`)
   console.log(`• Descartadas (Área):       ${discardedArea}`)
   console.log(`• Descartadas (Local):      ${discardedLocation}`)
+  console.log(`• Descartadas (Senioridade): ${discardedSeniority}`)
   console.log(`• Descartadas (URL off):    ${discardedUrls}`)
   console.log(`────────────────────────────────────────────────────────────────────`)
   console.log(`⭐ TOTAL DE VAGAS VÁLIDAS SALVAS EM public/data/vagas.json: ${validJobs.length}`)

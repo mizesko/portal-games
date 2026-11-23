@@ -6,12 +6,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "Brazil",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: Unity Software Development Engineer in Test (SDET) na Jobgether (Brazil). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/unity-software-development-engineer-in-test-sdet-at-jobgether-4493560688",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-23T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:26.422Z"
+    "dataColeta": "2026-11-23T20:44:23.034Z"
   },
   {
     "vagaId": "022f9963a2c0625a",
@@ -25,7 +25,7 @@
     "link": "https://job-boards.greenhouse.io/wildlifestudios/jobs/8944410002",
     "fonte": "Greenhouse",
     "dataPublicacao": "2026-11-17T13:14:36.000Z",
-    "dataColeta": "2026-11-23T02:07:17.681Z"
+    "dataColeta": "2026-11-23T20:44:12.513Z"
   },
   {
     "vagaId": "a9dbcae4679cadda",
@@ -34,12 +34,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: Unity Developer - Remote Work | REF#310419 na BairesDev (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/unity-developer-remote-work-ref%23310419-at-bairesdev-4491701837",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-17T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:18.281Z"
+    "dataColeta": "2026-11-23T20:44:13.344Z"
   },
   {
     "vagaId": "f7d32b02799c32a1",
@@ -53,49 +53,35 @@
     "link": "https://br.linkedin.com/jobs/view/tech-art-intern-at-wildlife-studios-4491192482",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-17T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:20.644Z"
+    "dataColeta": "2026-11-23T20:44:16.115Z"
   },
   {
-    "vagaId": "2f5ffa4a11db6f1b",
-    "titulo": "QA Pleno | Quality Assurance e Testes de Software | Híbrido | São Paulo/SP",
-    "estudio": "Firedev IT",
+    "vagaId": "0545cd8e8c700ff5",
+    "titulo": "Analista de Testes / QA (Quality Assurance)",
+    "estudio": "Supernova",
     "area": "QA & Game Tester",
-    "modelo": "Híbrido",
+    "modelo": "Não informado",
     "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Pleno",
-    "descricao": "Vaga no LinkedIn: QA Pleno | Quality Assurance e Testes de Software | Híbrido | São Paulo/SP na Firedev IT (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/qa-pleno-quality-assurance-e-testes-de-software-h%C3%ADbrido-s%C3%A3o-paulo-sp-at-firedev-it-4479561400",
+    "senioridade": "Entrada / Não especificado",
+    "descricao": "Vaga no LinkedIn: Analista de Testes / QA (Quality Assurance) na Supernova (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
+    "link": "https://br.linkedin.com/jobs/view/analista-de-testes-qa-quality-assurance-at-supernova-4490464748",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-17T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:27.290Z"
-  },
-  {
-    "vagaId": "9ce2832fb9761ec8",
-    "titulo": "Senior Mobile Game Designer",
-    "estudio": "Epic Games",
-    "area": "Game Design",
-    "modelo": "Remoto",
-    "local": "Greater Porto Alegre",
-    "senioridade": "Sênior",
-    "descricao": "Vaga no LinkedIn: Senior Mobile Game Designer na Epic Games (Greater Porto Alegre). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/senior-mobile-game-designer-at-epic-games-4416592995",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-11-13T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:18.281Z"
+    "dataColeta": "2026-11-23T20:44:35.565Z"
   },
   {
     "vagaId": "f0e62ca58b75a1b8",
     "titulo": "Quality Assurance Engineer – Test Automation",
     "estudio": "TestFly",
     "area": "QA & Game Tester",
-    "modelo": "Não informado",
+    "modelo": "Remoto",
     "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: Quality Assurance Engineer – Test Automation na TestFly (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/quality-assurance-engineer-%E2%80%93-test-automation-at-testfly-4488972934",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-13T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:27.290Z"
+    "dataColeta": "2026-11-23T20:44:23.034Z"
   },
   {
     "vagaId": "c1dca1714f46f474",
@@ -104,12 +90,26 @@
     "area": "Outros",
     "modelo": "Não informado",
     "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: Designer para Unreal - Cenografia Virtual na Warner Bros. Discovery (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/designer-para-unreal-cenografia-virtual-at-warner-bros-discovery-4489102605",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-09T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:19.066Z"
+    "dataColeta": "2026-11-23T20:44:14.231Z"
+  },
+  {
+    "vagaId": "e1c3a1fc262bc648",
+    "titulo": "Quality Assurance Internship (QA)",
+    "estudio": "Fanatee",
+    "area": "QA & Game Tester",
+    "modelo": "Remoto",
+    "local": "São Paulo, São Paulo, Brazil",
+    "senioridade": "Estágio",
+    "descricao": "Vaga no LinkedIn: Quality Assurance Internship (QA) na Fanatee (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
+    "link": "https://br.linkedin.com/jobs/view/quality-assurance-internship-qa-at-fanatee-4477311869",
+    "fonte": "LinkedIn",
+    "dataPublicacao": "2026-11-09T00:00:00.000Z",
+    "dataColeta": "2026-11-23T20:44:28.687Z"
   },
   {
     "vagaId": "3e2b0161009c2249",
@@ -118,12 +118,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "Greater Porto Alegre",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: UI Artist na Epic Games (Greater Porto Alegre). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/ui-artist-at-epic-games-4405729181",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-07T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:19.903Z"
+    "dataColeta": "2026-11-23T20:44:15.214Z"
   },
   {
     "vagaId": "a47885550eeb558e",
@@ -132,26 +132,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "Greater Porto Alegre",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: UI Artist na Epic Games (Greater Porto Alegre). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/ui-artist-at-epic-games-4416105054",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-07T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:24.659Z"
-  },
-  {
-    "vagaId": "4ac806eac159a860",
-    "titulo": "Senior Tester II",
-    "estudio": "Epic Games",
-    "area": "Outros",
-    "modelo": "Remoto",
-    "local": "Greater Porto Alegre",
-    "senioridade": "Sênior",
-    "descricao": "Vaga no LinkedIn: Senior Tester II na Epic Games (Greater Porto Alegre). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/senior-tester-ii-at-epic-games-4479161390",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-11-06T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:26.422Z"
+    "dataColeta": "2026-11-23T20:44:36.523Z"
   },
   {
     "vagaId": "51b3e3110f674d08",
@@ -160,12 +146,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Não informado",
     "local": "São Paulo",
-    "senioridade": "Lead/Especialista",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "We're looking for a talented and passionate Visual Designer to join Wildlife's Game Art Team in São Paulo. The Game Art Team at Wildlife is growing. With an audience that numbers in the millions, our games have the power to impact countless lives. Our games connect people with interesting characters, vibrant worlds, and unforgettable experiences. That's no small task, but we have a powerful secret weapon: our people. The Wildlife team is a collection of world-class talent, a team focused on syne",
     "link": "https://job-boards.greenhouse.io/wildlifestudios/jobs/8635029002",
     "fonte": "Greenhouse",
     "dataPublicacao": "2026-11-05T14:32:03.000Z",
-    "dataColeta": "2026-11-23T02:07:17.681Z"
+    "dataColeta": "2026-11-23T20:44:12.513Z"
   },
   {
     "vagaId": "26e8666c80464ecf",
@@ -174,40 +160,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: 3D Designer (Unreal Engine) - Remote Work | REF#309206 na BairesDev (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/3d-designer-unreal-engine-remote-work-ref%23309206-at-bairesdev-4487021405",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-11-03T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:19.066Z"
-  },
-  {
-    "vagaId": "e474f64c45ed5ae6",
-    "titulo": "Senior Concept Artist",
-    "estudio": "Enver",
-    "area": "Arte & Ilustração",
-    "modelo": "Remoto",
-    "local": "Brazil",
-    "senioridade": "Sênior",
-    "descricao": "Vaga no LinkedIn: Senior Concept Artist na Enver (Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/senior-concept-artist-at-enver-4484696015",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-11-03T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:19.903Z"
-  },
-  {
-    "vagaId": "496b7905f59ad8b0",
-    "titulo": "Senior 3D Artist Generalist",
-    "estudio": "Enver",
-    "area": "Arte & Ilustração",
-    "modelo": "Remoto",
-    "local": "Brazil",
-    "senioridade": "Sênior",
-    "descricao": "Vaga no LinkedIn: Senior 3D Artist Generalist na Enver (Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/senior-3d-artist-generalist-at-enver-4486041515",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-11-03T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:19.903Z"
+    "dataColeta": "2026-11-23T20:44:14.231Z"
   },
   {
     "vagaId": "973b1e2724ceb9b5",
@@ -216,12 +174,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "Remote",
-    "senioridade": "Estágio",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with o",
     "link": "https://careers.roblox.com/jobs/7705949?gh_jid=7705949",
     "fonte": "Greenhouse",
     "dataPublicacao": "2026-10-22T21:23:59.000Z",
-    "dataColeta": "2026-11-23T02:07:20.098Z"
+    "dataColeta": "2026-11-23T20:44:13.977Z"
   },
   {
     "vagaId": "6251ab753d6ddac5",
@@ -230,12 +188,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "Remote",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with o",
     "link": "https://careers.roblox.com/jobs/7736682?gh_jid=7736682",
     "fonte": "Greenhouse",
     "dataPublicacao": "2026-10-14T00:05:20.000Z",
-    "dataColeta": "2026-11-23T02:07:20.107Z"
+    "dataColeta": "2026-11-23T20:44:13.984Z"
   },
   {
     "vagaId": "0d9ea42958d1b72e",
@@ -244,40 +202,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Remoto",
     "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: Illustrator & DIY Craft Designer na Petra Brands (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/illustrator-diy-craft-designer-at-petra-brands-4488122730",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-10-12T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:21.387Z"
-  },
-  {
-    "vagaId": "5fcbd144a7fd1b38",
-    "titulo": "Bilingual Spanish QA Game Tester",
-    "estudio": "Gravity Interactive, Inc.",
-    "area": "QA & Game Tester",
-    "modelo": "Não informado",
-    "local": "São Paulo, São Paulo, Brazil",
-    "senioridade": "Não informado",
-    "descricao": "Vaga no LinkedIn: Bilingual Spanish QA Game Tester na Gravity Interactive, Inc. (São Paulo, São Paulo, Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/bilingual-spanish-qa-game-tester-at-gravity-interactive-inc-4476221249",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-10-08T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:27.290Z"
-  },
-  {
-    "vagaId": "2dc060b7f7fb2243",
-    "titulo": "Lead VFX Artist and Animator",
-    "estudio": "Redemption Games, Inc.",
-    "area": "Arte & Ilustração",
-    "modelo": "Remoto",
-    "local": "Brazil",
-    "senioridade": "Lead/Especialista",
-    "descricao": "Vaga no LinkedIn: Lead VFX Artist and Animator na Redemption Games, Inc. (Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/lead-vfx-artist-and-animator-at-redemption-games-inc-4474227191",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-10-04T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:19.903Z"
+    "dataColeta": "2026-11-23T20:44:17.076Z"
   },
   {
     "vagaId": "8ce5798abb2ddf4f",
@@ -286,26 +216,12 @@
     "area": "Outros",
     "modelo": "Remoto",
     "local": "Remote",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "About You We are looking for a Product Owner to join the team behind Xsolla Partner Network (XPN). The role is based in the US, and we're open to strong candidates globally. Partner Network connects game publishers with content creators to drive discovery, engagement, and revenue. XPN is a two-sided marketplace. We help publishers run creator marketing campaigns ( xsolla.com/partner-network ), and we give creators a way to join those campaigns, along with tools to manage and grow their channels ",
     "link": "https://jobs.lever.co/xsolla/4eb71eae-b475-45e2-899d-b6de4980721d",
     "fonte": "Lever",
     "dataPublicacao": "2026-10-02T18:15:02.479Z",
-    "dataColeta": "2026-11-23T02:07:26.708Z"
-  },
-  {
-    "vagaId": "dad2f735306876f8",
-    "titulo": "Quality Assurance Analyst Mid-level (QA)",
-    "estudio": "Fanatee",
-    "area": "QA & Game Tester",
-    "modelo": "Remoto",
-    "local": "São Paulo, Brazil",
-    "senioridade": "Pleno",
-    "descricao": "Vaga no LinkedIn: Quality Assurance Analyst Mid-level (QA) na Fanatee (São Paulo, Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/quality-assurance-analyst-mid-level-qa-at-fanatee-4467908980",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-09-15T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:26.422Z"
+    "dataColeta": "2026-11-23T20:44:25.720Z"
   },
   {
     "vagaId": "5a3e88738c023c48",
@@ -314,12 +230,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Não informado",
     "local": "Greater São Paulo Area",
-    "senioridade": "Não informado",
+    "senioridade": "Assistente / Banco de Talentos",
     "descricao": "Vaga no LinkedIn: Concept Artist Environment/Props - Talent Pool (LATAM) na Side (Greater São Paulo Area). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/concept-artist-environment-props-talent-pool-latam-at-side-4465125654",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-09-11T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:20.644Z"
+    "dataColeta": "2026-11-23T20:44:16.115Z"
   },
   {
     "vagaId": "587fb9a3257fbef0",
@@ -328,26 +244,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Não informado",
     "local": "Greater São Paulo Area",
-    "senioridade": "Não informado",
+    "senioridade": "Assistente / Banco de Talentos",
     "descricao": "Vaga no LinkedIn: Concept Artist Character - Talent Pool (LATAM) na Side (Greater São Paulo Area). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/concept-artist-character-talent-pool-latam-at-side-4465128564",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-09-11T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:20.644Z"
-  },
-  {
-    "vagaId": "49851b71ddfc2268",
-    "titulo": "Creative Producer ",
-    "estudio": "Wildlifestudios",
-    "area": "Arte & Ilustração",
-    "modelo": "Não informado",
-    "local": "São Paulo",
-    "senioridade": "Sênior",
-    "descricao": "We are looking for a Creative Producer to join the Creative Strategy team at Wildlife. This is a role for someone who has spent their career making audiovisual work — writing, directing, producing — and who wants to apply that craft to advertising creative that runs at scale and is measured every day. You will own the creative production pipeline for one or more of our games, working alongside Product Marketing Managers and our in-house Creative Studio team. You create and prioritize the ideas t",
-    "link": "https://job-boards.greenhouse.io/wildlifestudios/jobs/8726055002",
-    "fonte": "Greenhouse",
-    "dataPublicacao": "2026-09-08T20:05:26.000Z",
-    "dataColeta": "2026-11-23T02:07:17.678Z"
+    "dataColeta": "2026-11-23T20:44:16.115Z"
   },
   {
     "vagaId": "6ec34d06831e0c15",
@@ -356,12 +258,12 @@
     "area": "QA & Game Tester",
     "modelo": "Remoto",
     "local": "Greater São Paulo Area",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Vaga no LinkedIn: FQA Game Tester | Inglês Intermediario na TestFly (Greater São Paulo Area). Veja detalhes no link oficial.",
     "link": "https://br.linkedin.com/jobs/view/fqa-game-tester-ingl%C3%AAs-intermediario-at-testfly-4454504051",
     "fonte": "LinkedIn",
     "dataPublicacao": "2026-08-14T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:26.422Z"
+    "dataColeta": "2026-11-23T20:44:23.034Z"
   },
   {
     "vagaId": "208a0edc51ac1d7e",
@@ -370,26 +272,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Remoto",
     "local": "Brasil",
-    "senioridade": "Estágio",
+    "senioridade": "Assistente / Banco de Talentos",
     "descricao": "Olá, nós somos a Panini! =)Somos uma editora e uma das principais responsáveis pela produção e distribuição de História em Quadrinhos e Álbuns de Figurinhas do Brasil. Trabalhamos com diversas licenças, como Marvel, Disney, Vertigo, DC, Maurício de Sousa entre outras, e temos a missão de levar o entretenimento e boas histórias para casa dos nossos leitores.Responsabilidades e atribuiçõesA Panini está em busca de Ilustradores Freelancers para colaborar em futuros projetos editoriais, licenciados ",
     "link": "https://editorapaninibrasil.gupy.io/job/eyJqb2JJZCI6MTE1OTM0NzYsInNvdXJjZSI6Im1jcF9jYW5kaWRhdGUifQ==?jobBoardSource=mcp_candidate",
     "fonte": "Gupy",
     "dataPublicacao": "2026-07-06T23:19:36.849Z",
-    "dataColeta": "2026-11-23T02:07:20.187Z"
-  },
-  {
-    "vagaId": "9227691a861037e4",
-    "titulo": "Generalist Game Designer (Mid/Sr) - Talent Pool",
-    "estudio": "Kokku",
-    "area": "Game Design",
-    "modelo": "Remoto",
-    "local": "Recife, Pernambuco, Brazil",
-    "senioridade": "Não informado",
-    "descricao": "Vaga no LinkedIn: Generalist Game Designer (Mid/Sr) - Talent Pool na Kokku (Recife, Pernambuco, Brazil). Veja detalhes no link oficial.",
-    "link": "https://br.linkedin.com/jobs/view/generalist-game-designer-mid-sr-talent-pool-at-kokku-4400436615",
-    "fonte": "LinkedIn",
-    "dataPublicacao": "2026-04-16T00:00:00.000Z",
-    "dataColeta": "2026-11-23T02:07:18.281Z"
+    "dataColeta": "2026-11-23T20:44:14.834Z"
   },
   {
     "vagaId": "bc33fdb5ac994fa3",
@@ -398,26 +286,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Não informado",
     "local": "Any/Tous les studios",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "(Version française ci-dessous) Thank you for your interest in a career at Larian Studios! We’re always looking to connect with talented and passionate developers — especially those with expertise in visual effects. While we may not have an immediate opening at this time, by applying to this listing, you're expressing your interest in being considered for future opportunities at Larian Studios. As a VFX Artist in our open application, you may be contacted when a role opens up that aligns with you",
     "link": "https://jobs.lever.co/larian/04cb183c-c7a0-42a5-93f9-8782b9b198a9",
     "fonte": "Lever",
     "dataPublicacao": "2025-05-15T10:57:35.766Z",
-    "dataColeta": "2026-11-23T02:07:20.908Z"
-  },
-  {
-    "vagaId": "e115cabb22631190",
-    "titulo": "Analista de UX Designer Pleno",
-    "estudio": "Gurpo Afeet",
-    "area": "UI/UX",
-    "modelo": "Presencial",
-    "local": "São Paulo, São Paulo",
-    "senioridade": "Pleno",
-    "descricao": "Venha fazer parte de uma empresa que é líder de mercado e do lifestyle esportivo no Brasil, e parceira estratégica das maiores marcas globais, como Nike, adidas, Puma e Vans, com um time nativo digital jovem e dinâmico. Se você é apaixonado por UX, navegando desde o operacional até o estratégico... Nós queremos te conhecer! Buscamos um profissional completamente apaixonado por design UX, para suportar o time de Digital Sales & Operations.Responsabilidades e atribuições- Realizar pesquisas de usu",
-    "link": "https://afeet.gupy.io/job/eyJqb2JJZCI6NjE2MzQ3OSwic291cmNlIjoibWNwX2NhbmRpZGF0ZSJ9?jobBoardSource=mcp_candidate",
-    "fonte": "Gupy",
-    "dataPublicacao": "2024-05-24T18:20:38.040Z",
-    "dataColeta": "2026-11-23T02:07:22.003Z"
+    "dataColeta": "2026-11-23T20:44:15.099Z"
   },
   {
     "vagaId": "27238260ef041b62",
@@ -426,12 +300,12 @@
     "area": "Arte & Ilustração",
     "modelo": "Presencial",
     "local": "Campinas, São Paulo",
-    "senioridade": "Não informado",
+    "senioridade": "Assistente / Banco de Talentos",
     "descricao": "PcDs são sempre bem-vindas.Buscamos pessoas apaixonadas por tecnologia. Alguém que se motive por desafios e atue com autonomia. Precisa gostar de trabalhar em equipe e possuir espírito colaborativo.Responsabilidades e atribuiçõesAtividades:Desenvolvimento de processos de User Experience (UX) como Pesquisas, Jornadas, Personas;Desenvolvimento de conceitos e soluções para aplicações web e mobile (wireframes, fluxos de informação); Desenvolvimento completo do design da interface (UI) e styleguide d",
     "link": "https://institutoeldorado.gupy.io/job/eyJqb2JJZCI6NjQ3ODMzNCwic291cmNlIjoibWNwX2NhbmRpZGF0ZSJ9?jobBoardSource=mcp_candidate",
     "fonte": "Gupy",
     "dataPublicacao": "2023-12-21T11:54:06.005Z",
-    "dataColeta": "2026-11-23T02:07:21.607Z"
+    "dataColeta": "2026-11-23T20:44:16.156Z"
   },
   {
     "vagaId": "4ff0a0b61e511725",
@@ -440,11 +314,11 @@
     "area": "Arte & Ilustração",
     "modelo": "Não informado",
     "local": "Itapevi, São Paulo",
-    "senioridade": "Não informado",
+    "senioridade": "Entrada / Não especificado",
     "descricao": "Se você busca fazer parte de um grupo focado em inovação e emoção, o seu lugar é aqui! A nossa cultura é de aperfeiçoamento. Buscamos pessoas que querem aprender, superar expectativas, que tenham ideias arrojadas, surpreendentes e sobretudo, se desafiem diariamente a pensar diferente. Venha com a gente surpreender e encantar.Responsabilidades e atribuiçõesDesenvolvimento de materiais gráficos, arte final, layouts, Ilustração manual e digital, Tratamento de imagens, animações 2D.Requisitos e qual",
     "link": "https://sejaumcriadordeexperiencias.gupy.io/job/eyJqb2JJZCI6MjU5MDgzMywic291cmNlIjoibWNwX2NhbmRpZGF0ZSJ9?jobBoardSource=mcp_candidate",
     "fonte": "Gupy",
     "dataPublicacao": "2022-07-12T14:01:51.000Z",
-    "dataColeta": "2026-11-23T02:07:20.187Z"
+    "dataColeta": "2026-11-23T20:44:14.834Z"
   }
 ]

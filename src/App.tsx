@@ -16,6 +16,7 @@ import type { Vaga } from './types/job'
 import type { StatusProcesso } from './types/database'
 import { formatDateTime, areaColor, modeloBadge, statusLabel, statusColor } from './utils/format'
 import { isAllowedLocation, is100PercentRemote, isSaoPaulo } from './utils/location'
+import { isBeginnerFriendly } from './utils/seniority'
 
 type Tab = 'vitrine' | 'favoritas' | 'inscricoes' | 'visualizadas' | 'descartadas'
 
@@ -42,6 +43,9 @@ function VitrineView({
     return vagas.filter(v => {
       // Salvaguarda: somente 100% Remoto ou São Paulo
       if (!isAllowedLocation(v)) return false
+
+      // Salvaguarda: somente vagas de perfil iniciante / entrada
+      if (!isBeginnerFriendly(v)) return false
 
       // Filtro de localização selecionado pelo usuário
       if (filters.localizacao === 'remoto' && !is100PercentRemote(v)) return false

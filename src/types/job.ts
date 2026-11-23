@@ -16,11 +16,10 @@ export type ModeloTrabalho =
 
 export type SenioridadeVaga =
   | 'Estágio'
-  | 'Júnior'
-  | 'Pleno'
-  | 'Sênior'
-  | 'Lead/Especialista'
-  | 'Não informado'
+  | 'Trainee / Aprendiz'
+  | 'Júnior / Entry-Level'
+  | 'Assistente / Banco de Talentos'
+  | 'Entrada / Não especificado'
 
 export interface Vaga {
   vagaId: string
